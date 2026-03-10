@@ -107,6 +107,24 @@ Returns stored document metadata.
 
 Clears vector database.
 
+## API Demonstration
+
+Below are screenshots demonstrating the API workflow.
+---
+### Clear Database
+![Clear](images/clear_api.png)
+
+### Upload Document
+![Upload](images/upload_api.png)
+
+### Query Retrieval API
+![Query](images/query_retrival_api.png)
+
+### Direct LLM Response
+![Direct](images/query_direct_llm.png)
+
+### Multi Turn Chat
+![Chat](images/multi_chat.png)
 ---
 
 ## Agentic Workflow
