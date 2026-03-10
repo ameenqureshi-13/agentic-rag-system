@@ -119,19 +119,17 @@ Clears vector database.
 
 ![Upload](images/upload_api.png)
 
-### Query Retrival API
+### Query API
 
 ![Query](images/query_retrival_api.png)
 
-### Query Direct LLM Response
+### Direct LLM Response
 
 ![Direct](images/query_direct_llm.png)
 
 ### Multi Turn Chat
 
 ![Chat](images/multi_chat.png)
-
----
 
 ## Agentic Workflow
 
