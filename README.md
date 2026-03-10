@@ -21,14 +21,14 @@ The system supports:
 
 User → FastAPI API Layer → Agent Decision Layer  
 → Document Search (Chroma Vector DB)  
-→ Direct LLM (GPT-2 via Transformers)
+→ Direct LLM (DistilGPT2 via Transformers)
 
 ### Components
 
 - **FastAPI** – REST API layer
 - **Sentence Transformers** – Embedding generation
 - **ChromaDB** – Vector database
-- **Transformers (GPT-2)** – Internal knowledge generation
+- **Transformers (DistilGPT2)** – Internal knowledge generation
 - **Custom Agent Layer** – Decision logic & reasoning trace
 
 ---
@@ -95,6 +95,8 @@ Example:
 
 ---
 
+---
+
 ### 4. List Documents
 **GET** `/documents`
 
@@ -107,10 +109,12 @@ Returns stored document metadata.
 
 Clears vector database.
 
+---
+
 ## API Demonstration
 
 Below are screenshots demonstrating the API workflow.
----
+
 ### Clear Database
 ![Clear](images/clear_api.png)
 
@@ -125,8 +129,8 @@ Below are screenshots demonstrating the API workflow.
 
 ### Multi Turn Chat
 ![Chat](images/multi_chat.png)
----
 
+---
 ## Agentic Workflow
 
 1. Receive user query
