@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+chromadb
+sentence-transformers
+transformers
+torch
+pypdf
+python-docx
+python-multipart
+docx2txt
