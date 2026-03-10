@@ -109,28 +109,6 @@ Clears vector database.
 
 ---
 
-## API Demonstration
-
-### Clear Database
-
-![Clear](images/clear_api.png)
-
-### Upload Document
-
-![Upload](images/upload_api.png)
-
-### Query API
-
-![Query](images/query_retrival_api.png)
-
-### Direct LLM Response
-
-![Direct](images/query_direct_llm.png)
-
-### Multi Turn Chat
-
-![Chat](images/multi_chat.png)
-
 ## Agentic Workflow
 
 1. Receive user query
